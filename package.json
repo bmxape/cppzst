@@ -10,7 +10,7 @@
     "rebuild:dev": "node-gyp -j 16 rebuild --debug",
     "rebuild": "node-gyp -j 16 rebuild",
     "clean": "node-gyp clean",
-    "preinstall": "git submodule update -i -r"
+    "preinstall": "git init && git submodule update -i -r"
   },
   "repository": {
     "type": "git",
