@@ -1,5 +1,5 @@
 {
-  "name": "cppzst",
+  "name": "cppzst-node-16-fork",
   "version": "2.0.8",
   "description": "Zstd wrapper for Nodejs 16",
   "main": "index.mjs",
@@ -9,9 +9,7 @@
     "build": "node-gyp -j 16 build",
     "rebuild:dev": "node-gyp -j 16 rebuild --debug",
     "rebuild": "node-gyp -j 16 rebuild",
-    "clean": "node-gyp clean",
-    "preinstall": "git init && git submodule update -i -r",
-    "postinstall": "npm run build"
+    "clean": "node-gyp clean"
   },
   "repository": {
     "type": "git",
